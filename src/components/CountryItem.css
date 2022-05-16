@@ -1,0 +1,23 @@
+.card {
+  width: 20%;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card img {
+    max-height: 150px;
+}
+
+
+@media (max-width: 576px) { 
+    .card {
+        width: 50%;
+    }
+ } 
